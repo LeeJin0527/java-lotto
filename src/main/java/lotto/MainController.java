@@ -10,6 +10,7 @@ public class MainController {
     public void run() {
         int money = this.buyLotto();
         int tickets = this.calculateLotto(money);
+        OutputView.printTickets(tickets);
     }
 
     public int buyLotto() {
